@@ -15,7 +15,7 @@ public class BankAccount {
         this.owner = owner;
         this.balance = startBalance;
         this.transactionHistory = new ArrayList<>();
-        addToHistory("| Cчёт создан с начальным балансом: " + startBalance);
+        addToHistory("| Cчет создан с начальным балансом: " + startBalance);
     }
 
     private void addToHistory(String operation) {
