@@ -69,7 +69,7 @@ public class BankAccount {
     }
 
     public List<String> getTransactionHistory() {
-        return transactionHistory;
+        return new ArrayList<>(transactionHistory);
     }
 
     public double getBalance() {
