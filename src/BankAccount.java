@@ -44,10 +44,6 @@ public class BankAccount {
 
     }
 
-    private void transfer(int idSource, int idDestination, double amount) {
-
-    }
-
     @Override
     public boolean equals(Object o) {
         if (!(o instanceof BankAccount that)) return false;
