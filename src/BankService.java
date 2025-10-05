@@ -43,7 +43,7 @@ public class BankService {
         return new ArrayList<>(accounts.values());
     }
 
-    public Map<String, List<BankAccount>> getAccountsByOwner {
+    public Map<String, List<BankAccount>> getAccountsByOwner() {
         return accounts.values().stream()
                 .collect(Collectors.groupingBy(BankAccount::getOwner));
     }
