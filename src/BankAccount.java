@@ -63,15 +63,12 @@ public class BankAccount {
     public int getId() {
         return id;
     }
-
     public String getOwner() {
         return owner;
     }
-
     public List<String> getTransactionHistory() {
         return new ArrayList<>(transactionHistory);
     }
-
     public double getBalance() {
         return balance;
     }
