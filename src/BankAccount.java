@@ -23,7 +23,7 @@ public class BankAccount {
         transactionHistory.add(LocalDateTime.now() + ": " + operation + " | Баланс: " + balance);
     }
 
-    private void deposit(double amount) {
+    public void deposit(double amount) {
         if (amount <= 0) {
             throw new IllegalArgumentException("Вносимая сумма должна быть положительной");
         }
@@ -32,7 +32,7 @@ public class BankAccount {
 
     }
 
-    private void withdraw(double amount) {
+    public void withdraw(double amount) {
         if (amount <= 0) {
             throw new IllegalArgumentException("Снимаемая сумма должна быть положительной");
         }
