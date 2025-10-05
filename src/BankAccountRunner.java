@@ -6,7 +6,7 @@ public class BankAccountRunner {
 
         bankService.addAccount("Сидоров", 1000);
 
-        bankService.getAllAccounts();
+
 
     }
 }
